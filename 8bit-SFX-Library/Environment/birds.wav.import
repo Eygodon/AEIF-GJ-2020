@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/birds.wav-4c36c83a3506a3f48e68bce86ca1ffb9.sample"
+
+[deps]
+
+source_file="res://8bit-SFX-Library/Environment/birds.wav"
+dest_files=[ "res://.import/birds.wav-4c36c83a3506a3f48e68bce86ca1ffb9.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

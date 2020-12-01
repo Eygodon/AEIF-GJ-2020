@@ -1,0 +1,1065 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Sprites/PixelPackTOPDOWN8BIT.png" type="Texture" id=1]
+
+[sub_resource type="RectangleShape2D" id=8]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=9]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=5]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=6]
+extents = Vector2( 8, 8 )
+
+[sub_resource type="RectangleShape2D" id=7]
+extents = Vector2( 8, 8 )
+
+[node name="tileset" type="Node"]
+
+[node name="Herbe HG" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 308
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe H" type="Sprite" parent="."]
+position = Vector2( 16, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 309
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe HD" type="Sprite" parent="."]
+position = Vector2( 32, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 310
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe G" type="Sprite" parent="."]
+position = Vector2( 0, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 324
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe M" type="Sprite" parent="."]
+position = Vector2( 16, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 325
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe D" type="Sprite" parent="."]
+position = Vector2( 32, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 326
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe BG" type="Sprite" parent="."]
+position = Vector2( 0, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 340
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe B" type="Sprite" parent="."]
+position = Vector2( 16, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 341
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Herbe BD" type="Sprite" parent="."]
+position = Vector2( 32, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 342
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Toit Wal HG" type="Sprite" parent="."]
+position = Vector2( 48, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 397
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Toit Wal HG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal HG/StaticBody2D"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal HM" type="Sprite" parent="."]
+position = Vector2( 64, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 398
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Toit Wal HM"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal HM/StaticBody2D2"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal HD" type="Sprite" parent="."]
+position = Vector2( 80, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 399
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Toit Wal HD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal HD/StaticBody2D3"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal MG" type="Sprite" parent="."]
+position = Vector2( 48, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 413
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Toit Wal MG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal MG/StaticBody2D4"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal MD" type="Sprite" parent="."]
+position = Vector2( 80, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 415
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Toit Wal MD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal MD/StaticBody2D5"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal BG" type="Sprite" parent="."]
+position = Vector2( 48, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 429
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Toit Wal BG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal BG/StaticBody2D6"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal BM" type="Sprite" parent="."]
+position = Vector2( 64, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 430
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Toit Wal BM"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal BM/StaticBody2D6"]
+shape = SubResource( 8 )
+
+[node name="Toit Wal BD" type="Sprite" parent="."]
+position = Vector2( 80, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 431
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="Toit Wal BD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toit Wal BD/StaticBody2D6"]
+shape = SubResource( 8 )
+
+[node name="Trotoire HG" type="Sprite" parent="."]
+position = Vector2( 48, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 311
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire H" type="Sprite" parent="."]
+position = Vector2( 64, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 312
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire HD" type="Sprite" parent="."]
+position = Vector2( 80, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 313
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire G" type="Sprite" parent="."]
+position = Vector2( 48, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 327
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire M" type="Sprite" parent="."]
+position = Vector2( 64, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 328
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire D" type="Sprite" parent="."]
+position = Vector2( 80, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 329
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire BG" type="Sprite" parent="."]
+position = Vector2( 48, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 343
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire B" type="Sprite" parent="."]
+position = Vector2( 64, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 344
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Facade G" type="Sprite" parent="."]
+position = Vector2( 0, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 180
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Facade M" type="Sprite" parent="."]
+position = Vector2( 16, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 163
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Facade D" type="Sprite" parent="."]
+position = Vector2( 32, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 182
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB BG" type="Sprite" parent="."]
+position = Vector2( 0, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 164
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB BM" type="Sprite" parent="."]
+position = Vector2( 16, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 165
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB BD" type="Sprite" parent="."]
+position = Vector2( 32, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 166
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB HG" type="Sprite" parent="."]
+position = Vector2( 0, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 148
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB HM" type="Sprite" parent="."]
+position = Vector2( 16, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 149
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitB HD" type="Sprite" parent="."]
+position = Vector2( 32, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 150
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Sable" type="Sprite" parent="."]
+position = Vector2( 128, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 470
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos BG" type="Sprite" parent="."]
+position = Vector2( 0, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 132
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos BM" type="Sprite" parent="."]
+position = Vector2( 16, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 133
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos BD" type="Sprite" parent="."]
+position = Vector2( 32, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 134
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos HG" type="Sprite" parent="."]
+position = Vector2( 0, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 116
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos HM" type="Sprite" parent="."]
+position = Vector2( 16, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 117
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRos HD" type="Sprite" parent="."]
+position = Vector2( 32, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 118
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Mur_WalMart" type="Sprite" parent="."]
+position = Vector2( 48, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 400
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Mur_WalMart"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mur_WalMart/StaticBody2D"]
+shape = SubResource( 9 )
+
+[node name="Mur_WalMart3" type="Sprite" parent="."]
+position = Vector2( 48, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 368
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Mur_WalMart3"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Mur_WalMart3/StaticBody2D2"]
+shape = SubResource( 9 )
+
+[node name="Porte B" type="Sprite" parent="."]
+position = Vector2( 64, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 437
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Porte B"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Porte B/StaticBody2D3"]
+shape = SubResource( 9 )
+
+[node name="Porte H" type="Sprite" parent="."]
+position = Vector2( 64, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 421
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Fenetre HG" type="Sprite" parent="."]
+position = Vector2( 80, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 358
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Fenetre BD" type="Sprite" parent="."]
+position = Vector2( 96, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 373
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Fenetre BD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fenetre BD/StaticBody2D4"]
+shape = SubResource( 9 )
+
+[node name="Fenetre BG" type="Sprite" parent="."]
+position = Vector2( 80, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 374
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Fenetre BG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Fenetre BG/StaticBody2D5"]
+shape = SubResource( 9 )
+
+[node name="Fenetre HD" type="Sprite" parent="."]
+position = Vector2( 96, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 357
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="WalMur" type="Sprite" parent="."]
+position = Vector2( 48, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 377
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="WalMur"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WalMur/StaticBody2D3"]
+shape = SubResource( 9 )
+
+[node name="WalMur HG" type="Sprite" parent="."]
+position = Vector2( 48, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 361
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="WalMur HM" type="Sprite" parent="."]
+position = Vector2( 64, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 362
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="WalMur BD" type="Sprite" parent="."]
+position = Vector2( 80, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 379
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="WalMur BD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WalMur BD/StaticBody2D4"]
+shape = SubResource( 9 )
+
+[node name="WalMur BM" type="Sprite" parent="."]
+position = Vector2( 64, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 378
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="WalMur BM"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="WalMur BM/StaticBody2D5"]
+shape = SubResource( 9 )
+
+[node name="WalMur HD" type="Sprite" parent="."]
+position = Vector2( 80, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 363
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Garage BG" type="Sprite" parent="."]
+position = Vector2( 112, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 438
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Garage HG" type="Sprite" parent="."]
+position = Vector2( 112, 96.055 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 422
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="Garage HG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Garage HG/StaticBody2D2"]
+shape = SubResource( 9 )
+
+[node name="Garage BM1" type="Sprite" parent="."]
+position = Vector2( 128, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 439
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Garage HM1" type="Sprite" parent="."]
+position = Vector2( 128, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 423
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="Garage HM1"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Garage HM1/StaticBody2D3"]
+shape = SubResource( 9 )
+
+[node name="Garage HM2" type="Sprite" parent="."]
+position = Vector2( 144, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 424
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="Garage HM2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Garage HM2/StaticBody2D4"]
+shape = SubResource( 9 )
+
+[node name="Garage BD" type="Sprite" parent="."]
+position = Vector2( 160, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 441
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Garage BM2" type="Sprite" parent="."]
+position = Vector2( 144, 112 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 440
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Garage HD" type="Sprite" parent="."]
+position = Vector2( 160, 96 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 425
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="Garage HD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Garage HD/StaticBody2D5"]
+shape = SubResource( 9 )
+
+[node name="ToitRo BG" type="Sprite" parent="."]
+position = Vector2( 0, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 135
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRo BM" type="Sprite" parent="."]
+position = Vector2( 16, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 136
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRo BD" type="Sprite" parent="."]
+position = Vector2( 32, 144 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 137
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRo HG" type="Sprite" parent="."]
+position = Vector2( 0, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 119
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRo HM" type="Sprite" parent="."]
+position = Vector2( 16, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 120
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="ToitRo HD" type="Sprite" parent="."]
+position = Vector2( 32, 128 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 121
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire BD" type="Sprite" parent="."]
+position = Vector2( 80, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 345
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire Corner BD" type="Sprite" parent="."]
+position = Vector2( 96, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 314
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire Corner BG" type="Sprite" parent="."]
+position = Vector2( 112, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 315
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line BD" type="Sprite" parent="."]
+position = Vector2( 128, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 316
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire Corner HG" type="Sprite" parent="."]
+position = Vector2( 96, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 330
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Trotoire Corner HD" type="Sprite" parent="."]
+position = Vector2( 112, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 331
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line HD" type="Sprite" parent="."]
+position = Vector2( 128, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 332
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Road 1" type="Sprite" parent="."]
+position = Vector2( 96, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 346
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="MurExetern Road" type="Sprite" parent="."]
+position = Vector2( 144, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 346
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MurExetern Road"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MurExetern Road/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="Road 2" type="Sprite" parent="."]
+position = Vector2( 112, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 347
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Road 3" type="Sprite" parent="."]
+position = Vector2( 128, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 348
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line BG" type="Sprite" parent="."]
+position = Vector2( 144, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 317
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line V" type="Sprite" parent="."]
+position = Vector2( 160, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 318
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line V2" type="Sprite" parent="."]
+position = Vector2( 176, 0 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 319
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line HG" type="Sprite" parent="."]
+position = Vector2( 144, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 333
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line V3" type="Sprite" parent="."]
+position = Vector2( 160, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 334
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line Hori" type="Sprite" parent="."]
+position = Vector2( 176, 16 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 335
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Road 4" type="Sprite" parent="."]
+position = Vector2( 144, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 349
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line Hori 2" type="Sprite" parent="."]
+position = Vector2( 160, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 350
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Line Hori 3" type="Sprite" parent="."]
+position = Vector2( 176, 32 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 351
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line Hori" type="Sprite" parent="."]
+position = Vector2( 128, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 364
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line Hori 2" type="Sprite" parent="."]
+position = Vector2( 144, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 365
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="MurExtern Ligne H" type="Sprite" parent="."]
+position = Vector2( 176, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 365
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MurExtern Ligne H"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MurExtern Ligne H/StaticBody2D"]
+shape = SubResource( 2 )
+
+[node name="Big Line V" type="Sprite" parent="."]
+position = Vector2( 160, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 366
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line Hori 3" type="Sprite" parent="."]
+position = Vector2( 128, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 380
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line Hori 4" type="Sprite" parent="."]
+position = Vector2( 144, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 381
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line V2" type="Sprite" parent="."]
+position = Vector2( 160, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 382
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line V3" type="Sprite" parent="."]
+position = Vector2( 176, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 367
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="Big Line V4" type="Sprite" parent="."]
+position = Vector2( 176, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 383
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+
+[node name="MurExtern Ligne V2" type="Sprite" parent="."]
+position = Vector2( 160, 80 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 383
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="MurExtern Ligne V2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="MurExtern Ligne V2/StaticBody2D"]
+shape = SubResource( 3 )
+
+[node name="Arbre HG" type="Sprite" parent="."]
+position = Vector2( 96, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 416
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Arbre HG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arbre HG/StaticBody2D"]
+shape = SubResource( 4 )
+
+[node name="Arbre BG" type="Sprite" parent="."]
+position = Vector2( 96, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 432
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Arbre BG"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arbre BG/StaticBody2D"]
+shape = SubResource( 5 )
+
+[node name="Arbre HD" type="Sprite" parent="."]
+position = Vector2( 112, 48 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 417
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Arbre HD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arbre HD/StaticBody2D"]
+shape = SubResource( 6 )
+
+[node name="Arbre BD" type="Sprite" parent="."]
+position = Vector2( 112, 64 )
+texture = ExtResource( 1 )
+vframes = 30
+hframes = 16
+frame = 433
+region_rect = Rect2( 144.891, 32.6661, 14.2222, 12.8889 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Arbre BD"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arbre BD/StaticBody2D"]
+shape = SubResource( 7 )

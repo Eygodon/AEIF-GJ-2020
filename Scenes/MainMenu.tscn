@@ -1,0 +1,119 @@
+[gd_scene load_steps=11 format=2]
+
+[ext_resource path="res://Codes/MainMenu.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/FadeIn.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Sprites/Menu_bg.png" type="Texture" id=3]
+[ext_resource path="res://Music/01_LOOP_ROLLING_SLEEVES.ogg" type="AudioStream" id=4]
+[ext_resource path="res://8bit-SFX-Library/UI/ok-1.wav" type="AudioStream" id=5]
+[ext_resource path="res://Font/8-bit-pusab.ttf" type="DynamicFontData" id=6]
+
+[sub_resource type="DynamicFont" id=1]
+size = 11
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 8
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 12
+font_data = ExtResource( 6 )
+
+[sub_resource type="GDScript" id=4]
+script/source = "extends Button
+
+
+
+# Declare member variables here. Examples:
+# var a = 2
+# var b = \"text\"
+
+
+# Called when the node enters the scene tree for the first time.
+func _ready():
+	pass # Replace with function body.
+
+
+# Called every frame. 'delta' is the elapsed time since the previous frame.
+#func _process(delta):
+#	pass
+
+
+
+"
+
+[node name="Title screen" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+rect_scale = Vector2( 0.53315, 0.599629 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Bg" type="TextureRect" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Title" type="Label" parent="."]
+margin_left = 417.492
+margin_top = 2.91104
+margin_right = 642.492
+margin_bottom = 98.911
+rect_scale = Vector2( 4.82054, 5.93924 )
+size_flags_horizontal = 3
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 1 )
+text = "America's got
+ talent"
+align = 1
+valign = 1
+uppercase = true
+
+[node name="Credits" type="Label" parent="."]
+margin_left = -70.6527
+margin_top = 882.0
+margin_right = 296.347
+margin_bottom = 930.0
+rect_scale = Vector2( 2.86907, 2.58675 )
+size_flags_horizontal = 3
+size_flags_vertical = 5
+custom_fonts/font = SubResource( 2 )
+text = "Cree par Bastien Doret et Yann Berthelot"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="FadeIn" parent="." instance=ExtResource( 2 )]
+rect_scale = Vector2( 1.88645, 1.70028 )
+color = Color( 0, 0, 0, 0 )
+
+[node name="Play" type="Button" parent="."]
+margin_left = 839.254
+margin_top = 681.335
+margin_right = 897.254
+margin_bottom = 711.335
+rect_scale = Vector2( 3.98275, 3.53979 )
+custom_fonts/font = SubResource( 3 )
+text = "Play"
+script = SubResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+volume_db = -20.0
+autoplay = true
+
+[node name="Sound" type="Node2D" parent="."]
+
+[node name="Ok" type="AudioStreamPlayer" parent="Sound"]
+stream = ExtResource( 5 )
+[connection signal="pressed" from="Play" to="." method="_on_Button_pressed"]

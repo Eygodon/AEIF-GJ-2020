@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/cancel-2.wav-2815255be4a37f246518ca0aab90b320.sample"
+
+[deps]
+
+source_file="res://8bit-SFX-Library/UI/cancel-2.wav"
+dest_files=[ "res://.import/cancel-2.wav-2815255be4a37f246518ca0aab90b320.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

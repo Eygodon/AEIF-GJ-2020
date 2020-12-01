@@ -1,0 +1,47 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Codes/Ennemi.gd" type="Script" id=1]
+[ext_resource path="res://Sprites/unarmed.png" type="Texture" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 28.6291, 25.4349 )
+
+[sub_resource type="CircleShape2D" id=2]
+radius = 189.639
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 34.2685, 23.3943 )
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+position = Vector2( 2, -4.41433 )
+scale = Vector2( 0.4, 0.4 )
+collision_layer = 2
+collision_mask = 5
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 10 )
+shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="DirectionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="DirectionArea"]
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 0, -18 )
+scale = Vector2( 2, 2 )
+texture = ExtResource( 2 )
+
+[node name="HitboxDmg" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HitboxDmg"]
+position = Vector2( 0, -30 )
+shape = SubResource( 3 )
+[connection signal="body_entered" from="DirectionArea" to="." method="_on_DetectRadius_body_entered"]
+[connection signal="body_exited" from="DirectionArea" to="." method="_on_DetectRadius_body_exited"]
+[connection signal="area_entered" from="HitboxDmg" to="." method="_on_HitboxDmg_area_entered"]
+[connection signal="body_entered" from="HitboxDmg" to="." method="_on_HitboxDmg_body_entered"]

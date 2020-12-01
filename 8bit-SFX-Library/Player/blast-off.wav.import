@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/blast-off.wav-d046a04b09c8b5424b7ae3d31297e258.sample"
+
+[deps]
+
+source_file="res://8bit-SFX-Library/Player/blast-off.wav"
+dest_files=[ "res://.import/blast-off.wav-d046a04b09c8b5424b7ae3d31297e258.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

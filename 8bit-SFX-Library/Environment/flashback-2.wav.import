@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/flashback-2.wav-aa2c0e3ba388cbfe59e03c2da52d9d8c.sample"
+
+[deps]
+
+source_file="res://8bit-SFX-Library/Environment/flashback-2.wav"
+dest_files=[ "res://.import/flashback-2.wav-aa2c0e3ba388cbfe59e03c2da52d9d8c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
